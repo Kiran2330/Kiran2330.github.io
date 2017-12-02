@@ -1,68 +1,106 @@
-
-   
-.profile-pic{
-  margin-top: 2em;
-  height:8em;
-  width:8em;
-  border:1px solid #239079;
-  border-radius:100%;  
-
-  &:hover{
-    transform: rotate(10deg);
-  }
-  
-}
-.contact-box{
-  
-   border:1px solid #239079;
-   box-shadow: 10px 10px 5px #239079;
-
-}
-
-footer{
-  .logo-pic{
-    height: 2.2em; 
-    width:2.2em;
-  }
-}
-a{
-  color:white;
-}
-ul{
-  color: black;
-  font-weight:bold;
-  li{
-    color:#333;
-    font-weight: normal;
-  }
-}
-.backgrnd{
-  /*background-image: url("img/backg1.png");*/
-  .skillTiles{
+.portfolioContainer{
+   nav{
+      // border:1px solid red;
+      .portfolioNavBar{
+         .portfolioHome{
+            a{
+               img{
+                  width:50px;
+               }
+            }
+         }
+         ul{
+            li{
+               margin-top: 1em;
+               a{
+                  display:block;
+                  color:brown;
+                  font-size:1.2em;
+                  &:hover,&:focus,&:active{
+                     background-color:brown;
+                     color:white;
+                     border-radius:5px;
+                  }
+               }
+               &:hover,&:focus,&:active{
+                  // background-color:brown;
+               }
+            }
+         }
+      }
+   }
+   .pillar{
+       float:center;
+      background-color:#212020;
+      width:10em;
+   height:80em;
+   box-shadow:0 0 17px black;
+   }
+   .skillTiles{
+      margin-top:6em;
     color:grey;
       ul{
-        font-size: 2em;
+        font-size: 1.5em;
         display: block;
         margin-top:2em; 
         li{
           text-decoration: none;
           display: inline-block;
+          margin:1.4em;
           width:inherit;
             label{
-              border:1px solid #3A2F50;        
-              /*filter: blur(0.9px);*/
+              // border:1px solid #3A2F50;        
+              filter: blur(0.2px);
               color:purple;
-              padding:0.4em;
+              padding:0.2em;
               border-radius: 4px;
-              box-shadow: 5px 5px 3px #3A2F50;
+              box-shadow: 4px 4px 10px #3A2F50;
 
                 img{
-                  width: 3.5em;
+                  width: 4em;
                   height: 3.5em;
                   padding-right:0.5em;
                 }
             }
         }
       }
-  } 
+  }
+}
+
+  
+
+.profile-pic{
+  margin-top: 2em;
+  height:12em;
+  width:12em;
+  border-radius:100%; 
+      border:2px solid brown;
+   
+
+  &:hover{
+    // transform: rotate(90deg);
+  }
+  
+}
+.contact-box{
+  
+   border:1px solid #239079;
+   box-shadow: 0 2px 17px grey;
+
+}
+
+footer{
+      p{
+         color:black;
+         a{
+            .logo-pic{
+               height: 2.2em; 
+               width:2.2em;
+            }
+         }
+      }
+}
+.backgrnd{
+  /*background-image: url("img/backg1.png");*/
+   
 }
