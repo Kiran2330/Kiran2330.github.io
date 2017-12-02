@@ -1,0 +1,68 @@
+
+   
+.profile-pic{
+  margin-top: 2em;
+  height:8em;
+  width:8em;
+  border:1px solid #239079;
+  border-radius:100%;  
+
+  &:hover{
+    transform: rotate(10deg);
+  }
+  
+}
+.contact-box{
+  
+   border:1px solid #239079;
+   box-shadow: 10px 10px 5px #239079;
+
+}
+
+footer{
+  .logo-pic{
+    height: 2.2em; 
+    width:2.2em;
+  }
+}
+a{
+  color:white;
+}
+ul{
+  color: black;
+  font-weight:bold;
+  li{
+    color:#333;
+    font-weight: normal;
+  }
+}
+.backgrnd{
+  /*background-image: url("img/backg1.png");*/
+  .skillTiles{
+    color:grey;
+      ul{
+        font-size: 2em;
+        display: block;
+        margin-top:2em; 
+        li{
+          text-decoration: none;
+          display: inline-block;
+          width:inherit;
+            label{
+              border:1px solid #3A2F50;        
+              /*filter: blur(0.9px);*/
+              color:purple;
+              padding:0.4em;
+              border-radius: 4px;
+              box-shadow: 5px 5px 3px #3A2F50;
+
+                img{
+                  width: 3.5em;
+                  height: 3.5em;
+                  padding-right:0.5em;
+                }
+            }
+        }
+      }
+  } 
+}
