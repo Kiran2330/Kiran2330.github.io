@@ -1,44 +1,63 @@
 .portfolioContainer{
+/*********************************/
+/***     Main Header css       ***/
+/*********************************/
    nav{
-      // border:1px solid red;
+    background-color:#275467;
       .portfolioNavBar{
          .portfolioHome{
             a{
                img{
-                  width:50px;
+                  margin-top:-6px;
+                  width:40px;
                }
             }
          }
          ul{
             li{
-               margin-top: 1em;
+               // margin-top: 1em;
                a{
+                  color:white;
                   display:block;
-                  color:brown;
                   font-size:1.2em;
-                  &:hover,&:focus,&:active{
-                     background-color:brown;
-                     color:white;
-                     border-radius:5px;
+
+                  &:hover , &:focus{
+                    background-color:transparent;
+                     color:black;
+                     // border-radius:5px;
+                  }
+                  &:active{
+                    background-color:transparent;
+                     color:black;
+                     // border-radius:5px;
                   }
                }
-               &:hover,&:focus,&:active{
-                  // background-color:brown;
+               &:active{
+                background-color:transparent;
+                color:black
                }
             }
          }
       }
    }
+
+/*********************************/
+/***       Home page css       ***/
+/*********************************/
    .pillar{
        float:center;
       background-color:#212020;
       width:10em;
-   height:80em;
-   box-shadow:0 0 17px black;
+      height:80em;
+      box-shadow:0 0 17px black;
    }
+
+/*********************************/
+/***     Skills page css       ***/
+/*********************************/
    .skillTiles{
       margin-top:6em;
-    color:grey;
+      color:grey;
       ul{
         font-size: 1.5em;
         display: block;
@@ -62,45 +81,49 @@
                   padding-right:0.5em;
                 }
             }
-        }
-      }
-  }
-}
-
-  
-
-.profile-pic{
-  margin-top: 2em;
-  height:12em;
-  width:12em;
-  border-radius:100%; 
-      border:2px solid brown;
-   
-
-  &:hover{
-    // transform: rotate(90deg);
-  }
-  
-}
-.contact-box{
-  
-   border:1px solid #239079;
-   box-shadow: 0 2px 17px grey;
-
-}
-
-footer{
-      p{
-         color:black;
-         a{
-            .logo-pic{
-               height: 2.2em; 
-               width:2.2em;
-            }
          }
       }
+   }
 }
-.backgrnd{
-  /*background-image: url("img/backg1.png");*/
-   
+
+  
+/*********************************/
+/***     Contact page css      ***/
+/*********************************/
+.contact-box{
+   // box-shadow: 0 2px 17px grey;
+   margin-top:6em;
+   color:#FA5F17;
+   .coverimg{
+      img{
+         border:2px solid red;
+         height:50%;
+         width:50%;
+         margin-left:-20em;
+         // background-image: url("img/coverphoto.jpg");
+      }
+   }
+   .profile-pic{
+      margin-top: 2em;
+      height:12em;
+      width:12em;
+      border-radius:100%; 
+      &:hover{
+      }
+   }
+}
+
+/*********************************/
+/***        Footer css         ***/
+/*********************************/
+footer{
+   p{
+      color:black;
+      a{
+         .logo-pic{
+            height: 2.2em; 
+            width:2.2em;
+         }
+      }
+   }
 }

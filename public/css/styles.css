@@ -1,62 +1,84 @@
-.portfolioContainer nav .portfolioNavBar .portfolioHome a img {
-  width: 50px; }
-.portfolioContainer nav .portfolioNavBar ul li {
-  margin-top: 1em; }
-  .portfolioContainer nav .portfolioNavBar ul li a {
-    display: block;
-    color: brown;
-    font-size: 1.2em; }
-    .portfolioContainer nav .portfolioNavBar ul li a:hover, .portfolioContainer nav .portfolioNavBar ul li a:focus, .portfolioContainer nav .portfolioNavBar ul li a:active {
-      background-color: brown;
+.portfolioContainer {
+  /*********************************/
+  /***     Main Header css       ***/
+  /*********************************/
+  /*********************************/
+  /***       Home page css       ***/
+  /*********************************/
+  /*********************************/
+  /***     Skills page css       ***/
+  /*********************************/ }
+  .portfolioContainer nav {
+    background-color: #275467; }
+    .portfolioContainer nav .portfolioNavBar .portfolioHome a img {
+      margin-top: -6px;
+      width: 40px; }
+    .portfolioContainer nav .portfolioNavBar ul li a {
       color: white;
-      border-radius: 5px; }
-.portfolioContainer .pillar {
-  float: center;
-  background-color: #212020;
-  width: 10em;
-  height: 80em;
-  box-shadow: 0 0 17px black; }
-.portfolioContainer .skillTiles {
-  margin-top: 6em;
-  color: grey; }
-  .portfolioContainer .skillTiles ul {
-    font-size: 1.5em;
-    display: block;
-    margin-top: 2em; }
-    .portfolioContainer .skillTiles ul li {
-      text-decoration: none;
-      display: inline-block;
-      margin: 1.4em;
-      width: inherit; }
-      .portfolioContainer .skillTiles ul li label {
-        filter: blur(0.2px);
-        color: purple;
-        padding: 0.2em;
-        border-radius: 4px;
-        box-shadow: 4px 4px 10px #3A2F50; }
-        .portfolioContainer .skillTiles ul li label img {
-          width: 4em;
-          height: 3.5em;
-          padding-right: 0.5em; }
+      display: block;
+      font-size: 1.2em; }
+      .portfolioContainer nav .portfolioNavBar ul li a:hover, .portfolioContainer nav .portfolioNavBar ul li a:focus {
+        background-color: transparent;
+        color: black; }
+      .portfolioContainer nav .portfolioNavBar ul li a:active {
+        background-color: transparent;
+        color: black; }
+    .portfolioContainer nav .portfolioNavBar ul li:active {
+      background-color: transparent;
+      color: black; }
+  .portfolioContainer .pillar {
+    float: center;
+    background-color: #212020;
+    width: 10em;
+    height: 80em;
+    box-shadow: 0 0 17px black; }
+  .portfolioContainer .skillTiles {
+    margin-top: 6em;
+    color: grey; }
+    .portfolioContainer .skillTiles ul {
+      font-size: 1.5em;
+      display: block;
+      margin-top: 2em; }
+      .portfolioContainer .skillTiles ul li {
+        text-decoration: none;
+        display: inline-block;
+        margin: 1.4em;
+        width: inherit; }
+        .portfolioContainer .skillTiles ul li label {
+          filter: blur(0.2px);
+          color: purple;
+          padding: 0.2em;
+          border-radius: 4px;
+          box-shadow: 4px 4px 10px #3A2F50; }
+          .portfolioContainer .skillTiles ul li label img {
+            width: 4em;
+            height: 3.5em;
+            padding-right: 0.5em; }
 
-.profile-pic {
-  margin-top: 2em;
-  height: 12em;
-  width: 12em;
-  border-radius: 100%;
-  border: 2px solid brown; }
-
+/*********************************/
+/***     Contact page css      ***/
+/*********************************/
 .contact-box {
-  border: 1px solid #239079;
-  box-shadow: 0 2px 17px grey; }
+  margin-top: 6em;
+  color: #FA5F17; }
+  .contact-box .coverimg img {
+    border: 2px solid red;
+    height: 50%;
+    width: 50%;
+    margin-left: -20em; }
+  .contact-box .profile-pic {
+    margin-top: 2em;
+    height: 12em;
+    width: 12em;
+    border-radius: 100%; }
 
+/*********************************/
+/***        Footer css         ***/
+/*********************************/
 footer p {
   color: black; }
   footer p a .logo-pic {
     height: 2.2em;
     width: 2.2em; }
-
-.backgrnd {
-  /*background-image: url("img/backg1.png");*/ }
 
 /*# sourceMappingURL=styles.css.map */
