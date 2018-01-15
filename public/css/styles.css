@@ -43,17 +43,19 @@
         text-decoration: none;
         display: inline-block;
         margin: 1.4em;
-        width: inherit; }
+        width: inherit;
+        background-color: white; }
         .portfolioContainer .skillTiles ul li label {
           filter: blur(0.2px);
           color: purple;
           padding: 0.2em;
-          border-radius: 4px;
-          box-shadow: 4px 4px 10px #3A2F50; }
+          border-radius: 8px;
+          background-color: white;
+          box-shadow: 4px 4px 10px grey; }
           .portfolioContainer .skillTiles ul li label img {
             width: 4em;
-            height: 3.5em;
-            padding-right: 0.5em; }
+            height: 3em;
+            padding-right: 2px; }
 
 /*********************************/
 /***     Contact page css      ***/
@@ -61,16 +63,12 @@
 .contact-box {
   margin-top: 6em;
   color: #FA5F17; }
-  .contact-box .coverimg img {
-    border: 2px solid red;
-    height: 50%;
-    width: 50%;
-    margin-left: -20em; }
-  .contact-box .profile-pic {
-    margin-top: 2em;
-    height: 12em;
-    width: 12em;
-    border-radius: 100%; }
+
+.profile-pic {
+  margin-top: 2em;
+  height: 12em;
+  width: 12em;
+  border-radius: 100%; }
 
 /*********************************/
 /***        Footer css         ***/
