@@ -9,48 +9,50 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="public/css/styles.css">
 </head>
-<body class="portfolioContainer">
- 
+<body class="pf-container">
   <!-- Header starts here -->
   <nav class="navbar navbar-fixed-top">
-    <div class="container-fluid portfolioNavBar">
-      <div class="navbar-header portfolioHome">
-        <a class="navbar-brand active" href="index.html"><img src="public/img/girlAvatar.png"></a>
+    <div class="container-fluid pf-NavBar">
+      <div class="navbar-header pf-Home">
+        <a class="navbar-brand active" href="index.html">
+          <img src="public/img/girlAvatar.png">
+        </a>
       </div>
       <ul class="nav navbar-nav">
-        <li><a href="#SkillSec">Skills</a></li>
         <li><a href="#experienceSec">Experience</a></li>
+        <li><a href="#SkillSec">Skills</a></li>
         <li><a href="#ContactDetail">About</a></li>
         <li align="center"><a href="mailto:Kiran@karmacircles.com"><span class="glyphicon glyphicon-heart"></span></a></li>
       </ul>
     </div>
   </nav>
   <!-- Header ends here -->
-<section style="min-height:90vh;">
-   <!--  <div align="center" style="margin-top:8em;position:fixed;">
-      <img src="public/img/.jpg" alt="profile picture">
-    </div> -->
-
-    <div class="well" align="center" style="font-family:Times, Times New Roman, Georgia, serif;color:brown;background-color: white;font-weight: bold;font-size: 1.6em;margin-top:4em;"><i>Practice like you've never won <br> Perform like you've never lost.</i>
-    <i></i>
-    </div>
-   <div class="well" align="center" style="font-family:Times, Times New Roman, Georgia, serif;color:brown;background-color: white;font-weight: bold;font-size: 1.6em;margin-top:4em;"><i>Coffee and Coding is not for everyone. ;-)</i>
-    <i></i>
-    </div>
-  <br><br>
+<section class="pf-quotes" style="background-image:url('public/img/hero.jpg'); ">
+  <div class="pf-well" align="center"><h2>Practice like you've never won <br> Perform like you've never lost.</h2>
+  </div>
 </section>
-<br><br>
+<section id="experienceSec" class="pf-content">
+  <header align="center"><h1>EXPERIENCE</h1></header>
+  <hr>
+  <div class="pf-exp">
+   <ul>
+      <li>
+         <h4>Working as a frontend engineer at KarmaCircles.</h4>
+      </li>
+      <li>
+         <h4>Worked as a full stack developer at BHEL from Jan 2016 to May 2016.</h4>
+      </li>
+   </ul>
+  </div>
+</section>
 <hr>
-<section id="experienceSec" style="min-height:90vh;">
-<header align="center"><h1>EXPERIENCE</h1></header>
-    <div align="center">
-      <p><strong>Working as a frontend engineer at KarmaCircles</strong></p>
-    </div>
-</section>
-<section id="SkillSec" style="min-height:90vh;">
-<header align="center"><h1>SKILLS</h1></header>
-<div class="skillTiles">
-      <ul>
+<section id="SkillSec" class="pf-content">
+   <header align="center">
+      <h1>SKILLS</h1>
+      <hr>
+   </header>
+  <div class="pf-skill">
+    <ul>
       <li>
         <label>
           <img src="public/img/html5_logo.png" />
@@ -123,34 +125,32 @@
       </li>
     </ul>
   </div>
-<br><br><br><br>
   </section> 
-<br><br><br><br>
   <hr>
-<section id="ContactDetail" style="min-height:90vh;">  
-     <div align="center" class="col-lg-8 col-lg-offset-2 contact-box">
-      <div>
-        <img src="public/img/kiran.jpg" alt="profile picture" class="profile-pic">
+<section id="ContactDetail" class="pf-content"> 
+    <header align="center"><h1>CONTACT US</h1></header> 
+    <hr>
+   <div align="center" class="col-lg-8 col-lg-offset-2 pf-contactBox">
+      <img src="public/img/kiran.jpg" alt="profile picture" class="pf-pic">
+      <div align="center" class="pf-contactCont">
+         <h4>Kiran Joshi</h4>
+         <p>Call me on <span class="glyphicon glyphicon-phone"></span> : 9999488196</p>
+         <p>Email me <a href="mailto:mkjoshi30@karmacircles.com"><span class="glyphicon glyphicon-envelope"></span> : mkjoshi30@gmail.com</a></p>
+         <p>Follow me on <a href="https://www.linkedin.com/in/kiran-joshi-602a4a57" target="_blank">LinkedIn</a></p>
       </div>
-      <div align="center">
-        <h4>Kiran Joshi</h4>
-        <p>Call me on <span class="glyphicon glyphicon-phone"></span> : 9999488196</p>
-        <p>Email me <a href="mailto:mkjoshi30@karmacircles.com"><span class="glyphicon glyphicon-envelope"></span> : mkjoshi30@gmail.com</a></p>
-        <p>Follow me on <a href="https://www.linkedin.com/in/kiran-joshi-602a4a57" target="_blank" style="color: #239079;">LinkedIn</a></p>
-      </div>
-    </div>  
+   </div>  
 </section>
-
-  <footer align="center" class="col-lg-4 col-lg-offset-4" style="margin-top: 2em;">
-    <p>
+<hr>
+<footer align="center" class="col-lg-4 col-lg-offset-4">
+   <p>
       <a href="https://www.facebook.com/kiran.joshi.965928" target="_blank">
         <img src="public/img/fb_logo.png" class="logo-pic">
       </a>
       <a href="https://www.linkedin.com/in/kiran-joshi-602a4a57" target="_blank">
         <img src="public/img/linkedin-logo.png" class="logo-pic">
       </a>
-    </p>
-    <p>&copy; 2017 Kiran Joshi </p>
-  </footer> 
+   </p>
+   <p>&copy; 2017 Kiran Joshi </p>
+</footer> 
 </body>
 </html>
