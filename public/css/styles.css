@@ -25,17 +25,43 @@
 /*********************************/
 /***     Skills page css       ***/
 /*********************************/
+.parallax {
+  /* The image used */
+  /* Set a specific height */
+  min-height: 750px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .pf-content {
   min-height: 90vh; }
   .pf-content header {
+    padding: 0.5em 0.5em;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
     color: #6E5E73; }
-  .pf-content .pf-exp ul li {
-    text-decoration: none; }
-    .pf-content .pf-exp ul li h4 {
-      color: grey; }
+  .pf-content .pf-exp {
+    padding-bottom: 4em;
+    text-align: center; }
+    .pf-content .pf-exp ul li {
+      text-decoration: none; }
+      .pf-content .pf-exp ul li h4 {
+        color: grey; }
   .pf-content .pf-skill {
-    margin-top: 6em;
+    margin-top: 4em;
     color: grey; }
+    .pf-content .pf-skill .parallax {
+      /* The image used */
+      /* Set a specific height */
+      min-height: 700px;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
     .pf-content .pf-skill ul {
       font-size: 1.5em;
       display: block;
@@ -44,19 +70,18 @@
         text-decoration: none;
         display: inline-block;
         margin: 1.4em;
-        width: inherit;
         background-color: white; }
         .pf-content .pf-skill ul li label {
           filter: blur(0.2px);
           color: purple;
           padding: 0.2em;
-          border-radius: 8px;
+          border-radius: 100%;
           background-color: white;
           box-shadow: 4px 4px 10px grey; }
           .pf-content .pf-skill ul li label img {
-            width: 4em;
+            width: 3em;
             height: 3em;
-            padding-right: 2px; }
+            padding-right: 4px; }
   .pf-content .pf-contactBox {
     margin-top: 4em;
     color: #FA5F17;
@@ -74,17 +99,23 @@
       .pf-content .pf-contactBox .pf-contactCont p a {
         color: grey; }
 
-.pf-quotes {
-  min-height: 50vh;
+.pf-quotes .parallax {
+  /* The image used */
+  /* Set a specific height */
+  min-height: 750px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
-  object-fit: fill; }
-  .pf-quotes .pf-well {
-    font-family: Times, Times New Roman, Georgia, serif;
-    color: #275467;
-    font-weight: bold; }
-    .pf-quotes .pf-well h2 {
-      margin-top: 1em;
-      padding-top: 4em; }
+  background-size: cover; }
+.pf-quotes .pf-well {
+  font-family: Times, Times New Roman, Georgia, serif;
+  color: #275467;
+  font-weight: bold; }
+  .pf-quotes .pf-well h1 {
+    font-size: 5em;
+    margin-top: 0em;
+    padding-top: 4em; }
 
 /*********************************/
 /***     Contact page css      ***/

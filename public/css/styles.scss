@@ -42,14 +42,32 @@
 /*********************************/
 /***     Skills page css       ***/
 /*********************************/
+  .parallax {
+    /* The image used */
 
+    /* Set a specific height */
+    min-height: 750px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
 .pf-content{
    min-height:90vh;
    header{
+    padding:0.5em 0.5em;
+    text-align:center;
+    font-size:3em;
+    font-weight:bold;
       // color:#46b8da;
       color:#6E5E73;
    }
    .pf-exp{
+    padding-bottom:4em;
+    text-align:center;
       ul{
          li{
             text-decoration:none;
@@ -61,7 +79,19 @@
    }
 
    .pf-skill{
-      margin-top:6em;
+    .parallax {
+    /* The image used */
+
+    /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+      margin-top:4em;
       color:grey;
       ul{
         font-size: 1.5em;
@@ -71,19 +101,19 @@
             text-decoration: none;
             display:inline-block;
             margin:1.4em;
-            width:inherit;
+            // width:inherit;
             background-color:white;
             label{
                filter: blur(0.2px);
                color:purple;
                padding:0.2em;
-               border-radius: 8px;
+               border-radius: 100%;
                background-color:white;
                box-shadow: 4px 4px 10px grey;
                img{
-                  width: 4em;
+                  width:3em;
                   height:3em;
-                  padding-right:2px;
+                  padding-right:4px;
                }
             }
          }
@@ -117,15 +147,26 @@
 }
 
 .pf-quotes{
-   min-height:50vh;
-   background-repeat: no-repeat;
-   object-fit: fill;
+   .parallax {
+    /* The image used */
+
+    /* Set a specific height */
+    min-height: 750px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
    .pf-well{
       font-family:Times, Times New Roman, Georgia, serif;
       color:#275467;
       font-weight: bold;
-      h2{
-         margin-top:1em;
+      h1{
+        font-size:5em;
+         margin-top:0em;
          padding-top:4em;
       }
    }
