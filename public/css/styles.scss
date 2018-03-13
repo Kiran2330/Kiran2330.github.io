@@ -1,6 +1,5 @@
 .pf-container{
    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-
 /*************************************************************************************************/
 /*********************************    NAVIGATION BAR CSS    **************************************/
 /*************************************************************************************************/
@@ -40,178 +39,91 @@
          }
       }
    }
-}
-/*********************************/
-/***     Skills page css       ***/
-/*********************************/
-  .parallax {
-    /* The image used */
-
-    /* Set a specific height */
-    min-height: 750px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
- 
-.pf-content{
-   min-height:90vh;
-   header{
-    padding:0.5em 0.5em;
-    text-align:center;
-    font-size:3em;
-    font-weight:bold;
-      // color:#46b8da;
-      color:black;
-   }
-   .pf-exp{
-    padding-bottom:4em;
-    text-align:center;
-      ul{
-         li{
-            text-decoration:none;
-            h4{
-               color:grey;
-            }     
+/*************************************************************************************************/
+/*********************************   PARALLAX EFFECT CSS    **************************************/
+/*************************************************************************************************/
+   .pf-section{
+      font-family:Times, Times New Roman, Georgia, serif;
+      header{
+         padding:1em 0.5em;
+         text-align:center;
+         font-size:3em;
+         font-weight:bold;
+         color:black;
+         hr{
+            border:none;
+            border-top:1px solid black;
+            width:15%;
          }
       }
-   }
+      .parallax {
+         /* The image used */
 
-   .pf-skill{
-    background-color: transparent;
-    .parallax {
-    /* The image used */
-
-    /* Set a specific height */
-    min-height: 700px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-      margin-top:1em;
-      color:white;
-      ul{
-        background-color:none;
-        font-size: 1.5em;
-        display: block;
-        margin-top:0; 
-        padding-top:2em;
-        li{
-
-            text-decoration: none;
-            display:block;
-            margin:1.4em;
-            // width:inherit;
-            background-color: transparent;
-            label{
-               filter: blur(0.2px);
-               color:purple;
-               padding:0.2em;
-               border-radius: 100%;
-               background-color:white;
-               box-shadow: 4px 4px 10px grey;
-               img{
-                  width:3em;
-                  height:3em;
-                  padding-right:4px;
+         /* Set a specific height */
+         min-height: 720px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+   
+   /* Hero image quotes css */
+         .pf-well{
+            color:black;
+            font-weight: bold;
+            h1{
+               font-size:5em;
+               margin-top:0em;
+               padding-top:4em;
+            }
+         }
+   /* Experience, Skills and Project css */      
+         .pf-list{
+            text-align:left;
+            ul{
+               padding-top: 18em;
+               li{
+                  list-style-type:none;
+                  h2{
+                     color:orange;
+                  }     
+               }
+            }
+         }
+   /* Contact box image and content css */      
+         .pf-contactBox{
+            margin-top:4em;
+            color:#FA5F17; 
+            border-radius:4px;
+            .pf-pic{
+               margin-top:1em;
+               height:10em;
+               width:10em;
+               border-radius:8px; 
+               &:hover{
+               }
+            }
+            .pf-contactCont{
+              font-weight:medium;
+              font-size:2em;
+               h4{
+                  color:black;
+                  font-size:2em;
+               }
+               p{
+                  color:black;   
+                  a{
+                     color:black;
+                  }
                }
             }
          }
       }
    }
-   .pf-contactBox{
-      margin-top:4em;
-      color:#FA5F17;
-      // margin-left:-2em; 
-      // box-shadow:1px 2px 10px grey; 
-      border-radius:4px;
-      .pf-pic{
-         margin-top:1em;
-         height:10em;
-         width:10em;
-         border-radius:8px; 
-         &:hover{
-         }
-      }
-      .pf-contactCont{
-        font-weight:medium;
-        font-size:2em;
-         h4{
-            color:black;
-            font-size:2em;
-         }
-         p{
-            color:black;   
-            a{
-               color:black;
-            }
-         }
-      }
-   }
-   .parallax {
-    /* The image used */
-
-    /* Set a specific height */
-    min-height: 750px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    .pf-projSec{
-      color:orange;
-      text-align:center;
-      h1{
-         padding-top:2em;
-         font-size:4em;
-      }
-    }
-  }
-   
 }
-
-
-.pf-quotes{
-   .parallax {
-    /* The image used */
-
-    /* Set a specific height */
-    min-height: 750px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
- 
-   .pf-well{
-      font-family:Times, Times New Roman, Georgia, serif;
-      color:black;
-      font-weight: bold;
-      h1{
-        font-size:5em;
-         margin-top:0em;
-         padding-top:4em;
-      }
-   }
-}  
-/*********************************/
-/***     Contact page css      ***/
-/*********************************/
-
-
-/*********************************/
-/***        Footer css         ***/
-/*********************************/
+/*************************************************************************************************/
+/******************************************   FOOTER CSS    **************************************/
+/*************************************************************************************************/
 footer{
    p{
       color:black;

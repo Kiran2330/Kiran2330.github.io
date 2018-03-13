@@ -11,9 +11,9 @@
       <link rel="stylesheet" type="text/css" href="public/css/styles.css">
       <script src="https://d3js.org/d3.v4.min.js"></script>
    </head>
+  
    <body class="pf-container">
-
-   <!--========================== HEADER STARTS HERE ==================================-->
+   <!--================================= HEADER STARTS HERE ==============================-->
       <nav class="navbar navbar-fixed-top">
          <div class="container-fluid pf-NavBar">
             <div class="navbar-header pf-Home">
@@ -22,18 +22,19 @@
                </a>
             </div>
             <ul class="nav navbar-nav">
-               <li><a href="#experienceSec">Experience</a></li>
+               <li><a href="#ExperienceSec">Experience</a></li>
+               <li><a href="#ProjectSec">Projects</a></li>
                <li><a href="#SkillSec">Skills</a></li>
                <li><a href="#ContactDetail">About</a></li>
                <li align="center"><a href="mailto:Kiran@karmacircles.com"><span class="glyphicon glyphicon-heart"></span></a></li>
             </ul>
          </div>
       </nav>
-   <!--==================== HEADER STARTS HERE ==========================-->  
+   <!--============================== HEADER ENDS HERE ====================================-->  
 
 
-   <!--=================== PARALLAX EFFECT IMAGE 1 ======================-->
-      <section class="pf-quotes" >
+   <!--=================== PARALLAX EFFECT SECTION 1 ======================-->
+      <section class="pf-section">
          <div class="parallax" style="background-image:url('public/img/pp8.jpg');">
             <div class="pf-well " align="center">
                <h1>Practice like you've never won <br> Perform like you've never lost.</h1>
@@ -41,72 +42,76 @@
          </div>
       </section>
      
-      <hr style="border-color:white;"> 
-
-   <!--=================== EXPERIENCE SECTION ==========================-->  
-      <section class="pf-content" id="experienceSec">
-         <header align="center"><h1>EXPERIENCE</h1></header>
-         <hr>
-         <div class="pf-exp">
-            <ul style="list-style-type:none;">
-               <li>
-                  <h4>Working as a Frontend Engineer at KarmaCircles.</h4>
-               </li>
-               <li>
-                  <h4>Worked as a full stack developer at BHEL from Jan 2016 to May 2016.</h4>
-               </li>
-            </ul>
-         </div> 
-
-   <!--====================== PARALLAX EFFECT IMAGE 2 ======================-->  
+   <!--====================== EXPERIENCE SECTION ===========================-->  
+      <section class="pf-section" id="ExperienceSec">
+         <header align="center">
+            <h1>EXPERIENCE</h1>
+            <hr>
+         </header>
+         <div class="parallax" style="background-image:url('public/img/pp9.jpg');"> 
+            <div class="pf-list">
+               <ul>
+                  <li>
+                     <h2>Working as a Frontend Engineer at KarmaCircles.</h2>
+                  </li>
+                  <li>
+                     <h2>Worked as a full stack developer at BHEL from Jan 2016 to May 2016.</h2>
+                  </li>
+               </ul>
+            </div> 
+         </div>
+       </section>
+        
+   <!--====================== PARALLAX EFFECT IMAGE 2 ======================--> 
+      <section class="pf-section" id="ProjectSec">
+         <header align="center">
+            <h1>MY PROJECTS</h1>
+            <hr>
+         </header>
          <div class="parallax" style="background-image:url('public/img/pp9.jpg');">
-            <div class="pf-projSec">
-               <h1>MY PROJECTS</h1>
-               <ul style="list-style-type:none;margin-top:5em;">
-               <li style="padding:1em;">
-                  <h4>WRITING BLOG</h4>
+            <div class="pf-list">
+               <ul>
+               <li>
+                  <h2>WRITING BLOG</h2>
                </li>
                <li>
-                  <h4>QUIZ GAME IN JS</h4>
+                  <h2>QUIZ GAME IN JS</h2>
                </li>
             </ul>
             </div>
          </div> 
       </section>
-     
-      <hr  style="border-color:white;">
-  
    <!--========================= SKILLS SECTION ===============================-->  
-      <section id="SkillSec" class="pf-content">
+      <section class="pf-section" id="SkillSec">
          <header align="center">
             <h1>SKILLS</h1>
             <hr>
          </header>
          <div class="parallax" style="background-image:url('public/img/pp9.jpg');">
-         <div class="pf-skill">
+         <div class="pf-list">
             <ul>
                <li>
-                 Proficient in designing tools like HTML5, CSS3, SASS, BOOTSTRAP.
+                  <h2>Proficient in designing tools like HTML5, CSS3, SASS, BOOTSTRAP.</h2>
                </li>
                <li>
-                 I have great working experience in JQUERY, JAVASCRIPT, AJAX, JSON.
+                  <h2>I have great working experience in JQUERY, JAVASCRIPT, AJAX, JSON.</h2>
                </li>
                <li>
-                 I have great experience in working with languages like JAVA, PHP.
+                  <h2>I have great experience in working with languages like JAVA, PHP.</h2>
                </li>
                <li>
-                 Working knowledge of version control, Github.
+                  <h2>Working knowledge of version control, Github.</h2>
                </li>
             </ul>      
          </div>
          </div>
       </section> 
-
-      <hr>
    <!--=========================== CONTACT SECTION ============================-->  
-      <section id="ContactDetail" class="pf-content"> 
-         <header align="center"><h1>CONTACT</h1></header> 
-         <hr>
+      <section class="pf-section" id="ContactDetail"> 
+         <header align="center">
+            <h1>CONTACT</h1>
+            <hr>
+         </header> 
          <div class="parallax" style="background-image:url('public/img/ppp2.jpg');">
             <div align="center" class="col-lg-8 col-lg-offset-2 pf-contactBox">
                <img src="public/img/kiran.jpg" alt="profile picture" class="pf-pic">
@@ -119,9 +124,6 @@
             </div>
          </div>     
       </section>
-
-      <hr>
-
    <!--============================ FOOTER =====================================-->  
 
       <footer align="center" class="col-lg-4 col-lg-offset-4">
