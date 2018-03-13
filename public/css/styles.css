@@ -17,13 +17,15 @@
       font-size: 1.2em; }
       .pf-container nav .pf-NavBar ul li a:hover, .pf-container nav .pf-NavBar ul li a:focus {
         background-color: transparent;
-        color: black; }
+        color: black;
+        font-size: 1.2em; }
       .pf-container nav .pf-NavBar ul li a:active {
         background-color: transparent;
-        color: black; }
-    .pf-container nav .pf-NavBar ul li:active {
+        color: black;
+        font-size: 1.2em; }
+    .pf-container nav .pf-NavBar ul li:hover, .pf-container nav .pf-NavBar ul li:focus, .pf-container nav .pf-NavBar ul li:active {
       background-color: transparent;
-      color: black; }
+      border-bottom: 1px solid white; }
   .pf-container .pf-section {
     font-family: Times, Times New Roman, Georgia, serif; }
     .pf-container .pf-section header {
@@ -35,7 +37,7 @@
       .pf-container .pf-section header hr {
         border: none;
         border-top: 1px solid black;
-        width: 15%; }
+        width: 80px; }
     .pf-container .pf-section .parallax {
       /* The image used */
       /* Set a specific height */
@@ -71,7 +73,7 @@
           margin-top: 1em;
           height: 10em;
           width: 10em;
-          border-radius: 8px; }
+          border-radius: 4px; }
         .pf-container .pf-section .parallax .pf-contactBox .pf-contactCont {
           font-weight: medium;
           font-size: 2em; }
@@ -87,7 +89,7 @@
 /******************************************   FOOTER CSS    **************************************/
 /*************************************************************************************************/
 footer p {
-  color: black; }
+  color: #494949; }
   footer p a .logo-pic {
     height: 2.2em;
     width: 2.2em; }

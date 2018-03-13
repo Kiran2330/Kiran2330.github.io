@@ -23,17 +23,19 @@
                   display:block;
                   font-size:1.2em;
                   &:hover , &:focus{
-                    background-color:transparent;
+                     background-color:transparent;
                      color:black;
+                     font-size:1.2em;
                   }
                   &:active{
-                    background-color:transparent;
+                     background-color:transparent;
                      color:black;
+                     font-size:1.2em;
                   }
                }
-               &:active{
+               &:hover, &:focus, &:active{
                 background-color:transparent;
-                color:black
+                border-bottom:1px solid white;
                }
             }
          }
@@ -53,7 +55,7 @@
          hr{
             border:none;
             border-top:1px solid black;
-            width:15%;
+            width:80px;
          }
       }
       .parallax {
@@ -99,9 +101,9 @@
                margin-top:1em;
                height:10em;
                width:10em;
-               border-radius:8px; 
-               &:hover{
-               }
+               border-radius:4px; 
+               // &:hover{
+               // }
             }
             .pf-contactCont{
               font-weight:medium;
@@ -126,7 +128,7 @@
 /*************************************************************************************************/
 footer{
    p{
-      color:black;
+      color:#494949;
       a{
          .logo-pic{
             height: 2.2em; 
