@@ -82,6 +82,7 @@
    }
 
    .pf-skill{
+    background-color: transparent;
     .parallax {
     /* The image used */
 
@@ -94,18 +95,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     }
-      margin-top:4em;
-      color:grey;
+      margin-top:1em;
+      color:white;
       ul{
+        background-color:none;
         font-size: 1.5em;
         display: block;
-        margin-top:2em; 
+        margin-top:0; 
+        padding-top:2em;
         li{
+
             text-decoration: none;
-            display:inline-block;
+            display:block;
             margin:1.4em;
             // width:inherit;
-            background-color:white;
+            background-color: transparent;
             label{
                filter: blur(0.2px);
                color:purple;

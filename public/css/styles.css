@@ -1,8 +1,8 @@
 .pf-container {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  /*********************************/
-  /***     Main Header css       ***/
-  /*********************************/ }
+  /*************************************************************************************************/
+  /*********************************    NAVIGATION BAR CSS    **************************************/
+  /*************************************************************************************************/ }
   .pf-container nav {
     background-color: #494949; }
     .pf-container nav .pf-NavBar .pf-Home a img {
@@ -51,8 +51,9 @@
       .pf-content .pf-exp ul li h4 {
         color: grey; }
   .pf-content .pf-skill {
-    margin-top: 4em;
-    color: grey; }
+    background-color: transparent;
+    margin-top: 1em;
+    color: white; }
     .pf-content .pf-skill .parallax {
       /* The image used */
       /* Set a specific height */
@@ -63,14 +64,16 @@
       background-repeat: no-repeat;
       background-size: cover; }
     .pf-content .pf-skill ul {
+      background-color: none;
       font-size: 1.5em;
       display: block;
-      margin-top: 2em; }
+      margin-top: 0;
+      padding-top: 2em; }
       .pf-content .pf-skill ul li {
         text-decoration: none;
-        display: inline-block;
+        display: block;
         margin: 1.4em;
-        background-color: white; }
+        background-color: transparent; }
         .pf-content .pf-skill ul li label {
           filter: blur(0.2px);
           color: purple;
