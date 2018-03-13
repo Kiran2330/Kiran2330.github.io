@@ -4,7 +4,7 @@
   /***     Main Header css       ***/
   /*********************************/ }
   .pf-container nav {
-    background-color: #282727; }
+    background-color: #494949; }
     .pf-container nav .pf-NavBar .pf-Home a img {
       margin-top: -6px;
       width: 40px; }
@@ -88,9 +88,9 @@
     border-radius: 4px; }
     .pf-content .pf-contactBox .pf-pic {
       margin-top: 1em;
-      height: 12em;
-      width: 12em;
-      border-radius: 100%; }
+      height: 10em;
+      width: 10em;
+      border-radius: 8px; }
     .pf-content .pf-contactBox .pf-contactCont {
       font-weight: medium;
       font-size: 2em; }
@@ -101,6 +101,21 @@
         color: black; }
         .pf-content .pf-contactBox .pf-contactCont p a {
           color: black; }
+  .pf-content .parallax {
+    /* The image used */
+    /* Set a specific height */
+    min-height: 750px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .pf-content .parallax .pf-projSec {
+      color: orange;
+      text-align: center; }
+      .pf-content .parallax .pf-projSec h1 {
+        padding-top: 2em;
+        font-size: 4em; }
 
 .pf-quotes .parallax {
   /* The image used */
@@ -126,12 +141,10 @@
 /*********************************/
 /***        Footer css         ***/
 /*********************************/
-footer {
-  margin-top: 2em; }
-  footer p {
-    color: black; }
-    footer p a .logo-pic {
-      height: 2.2em;
-      width: 2.2em; }
+footer p {
+  color: black; }
+  footer p a .logo-pic {
+    height: 2.2em;
+    width: 2.2em; }
 
 /*# sourceMappingURL=styles.css.map */

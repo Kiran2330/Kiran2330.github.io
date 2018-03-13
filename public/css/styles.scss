@@ -1,11 +1,11 @@
 .pf-container{
    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 
-/*********************************/
-/***     Main Header css       ***/
-/*********************************/
+/*************************************************************************************************/
+/*********************************    NAVIGATION BAR CSS    **************************************/
+/*************************************************************************************************/
    nav{
-      background-color:#282727;
+      background-color:#494949;
       //#753236;
       //#275467;
       .pf-NavBar{
@@ -55,6 +55,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
  
 .pf-content{
@@ -92,7 +93,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+    }
       margin-top:4em;
       color:grey;
       ul{
@@ -129,9 +130,9 @@
       border-radius:4px;
       .pf-pic{
          margin-top:1em;
-         height:12em;
-         width:12em;
-         border-radius:100%; 
+         height:10em;
+         width:10em;
+         border-radius:8px; 
          &:hover{
          }
       }
@@ -150,7 +151,29 @@
          }
       }
    }
+   .parallax {
+    /* The image used */
+
+    /* Set a specific height */
+    min-height: 750px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .pf-projSec{
+      color:orange;
+      text-align:center;
+      h1{
+         padding-top:2em;
+         font-size:4em;
+      }
+    }
+  }
+   
 }
+
 
 .pf-quotes{
    .parallax {
@@ -186,7 +209,6 @@
 /***        Footer css         ***/
 /*********************************/
 footer{
-   margin-top:2em;
    p{
       color:black;
       a{
